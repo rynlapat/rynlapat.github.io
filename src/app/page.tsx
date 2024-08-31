@@ -14,7 +14,7 @@ const styles = {
     layout: {
         backgroundColor: "#F1DEEE",
         width: "100%",
-        minHeight: "150vh",
+        minHeight: "100vh",
         overflow: "hidden",
         paddingLeft: 120,
         paddingRight: 120,
@@ -135,7 +135,7 @@ export default function Home() {
                 {isMobile ? (
                     <>
                         <Row justify={"center"}>
-                            <Col span={24}>
+                            <Col span={24} style={{ display: "flex", justifyContent: "center" }}>
                                 <Avatar size={100} icon={<Image src={"./images/Rynlapat_Khongsirikul_Profile.png"} alt="" width={100} height={100} />} />
                             </Col>
                             <Col span={16}>
@@ -177,7 +177,7 @@ export default function Home() {
                                 </Layout>
                             </Col>
                         </Row>
-                        <Row style={{ marginTop: 20 }} gutter={8}>
+                        <Row style={{ marginTop: 20, marginBottom: "1rem" }} gutter={8}>
                             <Col span={24} style={{ marginBottom: 10 }}>
                                 <Layout style={styles.containerPortOne}>
                                     <Row style={{ padding: 20, height: "100%" }}>
@@ -286,7 +286,7 @@ export default function Home() {
                                 </Layout>
                             </Col>
                         </Row>
-                        <Row style={{ marginTop: 50 }} gutter={120}>
+                        <Row style={{ marginTop: 50, marginBottom: "1rem" }} gutter={120}>
                             <Col span={8}>
                                 <Layout style={styles.containerPortOne}>
                                     <Row style={{ padding: 20, height: "100%" }}>
