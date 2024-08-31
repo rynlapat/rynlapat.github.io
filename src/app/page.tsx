@@ -14,7 +14,7 @@ const styles = {
     layout: {
         backgroundColor: "#F1DEEE",
         width: "100%",
-        minHeight: "120vh",
+        minHeight: "150vh",
         overflow: "hidden",
         paddingLeft: 120,
         paddingRight: 120,
@@ -245,7 +245,7 @@ export default function Home() {
                         <Row justify={"center"}>
                             <Col span={8}>
                                 <Layout style={styles.containerName}>
-                                    <Text className={mansalva.variable} style={{ textAlign: "center", fontSize: 60 }}>
+                                    <Text className={mansalva.variable} style={{ textAlign: "center", fontSize: 45 }}>
                                         RYNLAPAT
                                     </Text>
                                 </Layout>
@@ -255,14 +255,14 @@ export default function Home() {
                             </Col>
                             <Col span={8}>
                                 <Layout style={styles.containerSurName}>
-                                    <Text className={mansalva.variable} style={{ textAlign: "center", fontSize: 60 }}>
+                                    <Text className={mansalva.variable} style={{ textAlign: "center", fontSize: 45 }}>
                                         KHONGSIRIKUL
                                     </Text>
                                 </Layout>
                             </Col>
                             <Col span={8}>
                                 <Layout style={styles.containerBio}>
-                                    <Text style={{ textAlign: "center", fontSize: 20, padding: 20 }}>
+                                    <Text style={{ textAlign: "center", fontSize: 16, padding: 20 }}>
                                         I am a qualified software engineer with two years of experience in developing and maintaining <br />
                                         web applications, mobile applications, <br />
                                         backend systems, and web design.
@@ -272,15 +272,15 @@ export default function Home() {
                             <Col span={8} />
                             <Col span={8}>
                                 <Layout style={styles.containerSocial}>
-                                    <Row justify={"space-between"} style={{ padding: 80 }}>
+                                    <Row justify={"space-between"} style={{ padding: 70 }}>
                                         <Link href={"https://www.linkedin.com/in/rynlapat-khongsirikul-17584b2b5/"} target="_blank">
-                                            <LinkedinFilled style={{ fontSize: 70, color: "black" }} />
+                                            <LinkedinFilled style={{ fontSize: 60, color: "black" }} />
                                         </Link>
                                         <Link href={"https://github.com/rynlapat"} target="_blank">
-                                            <GithubFilled style={{ fontSize: 70, color: "black" }} />
+                                            <GithubFilled style={{ fontSize: 60, color: "black" }} />
                                         </Link>
                                         <Link href={"/files/Rynlapat_Khongsirikul_Resume.pdf"} target="_blank">
-                                            <FileFilled style={{ fontSize: 70, color: "black" }} />
+                                            <FileFilled style={{ fontSize: 60, color: "black" }} />
                                         </Link>
                                     </Row>
                                 </Layout>
@@ -300,7 +300,7 @@ export default function Home() {
                                             </Text>
                                         </Col>
                                         <Row align={"bottom"}>
-                                            <Tag color="#73608B" bordered style={{ padding: 5, fontSize: 15 }}>
+                                            <Tag color="#73608B" bordered style={{ padding: 5, fontSize: 12 }}>
                                                 Next.js , TypeScript , Ant Design , .NET , Auth0
                                             </Tag>
                                         </Row>
@@ -320,7 +320,7 @@ export default function Home() {
                                             </Text>
                                         </Col>
                                         <Row align={"bottom"}>
-                                            <Tag color="#60628B" bordered style={{ padding: 5, fontSize: 15 }}>
+                                            <Tag color="#60628B" bordered style={{ padding: 5, fontSize: 12 }}>
                                                 Flutter , Dart
                                             </Tag>
                                         </Row>
@@ -340,7 +340,7 @@ export default function Home() {
                                             </Text>
                                         </Col>
                                         <Row align={"bottom"}>
-                                            <Tag color="#A8BECA" bordered style={{ padding: 5, fontSize: 15 }}>
+                                            <Tag color="#A8BECA" bordered style={{ padding: 5, fontSize: 12 }}>
                                                 Python , Flutter , Dart , Flask , MySQL
                                             </Tag>
                                         </Row>
